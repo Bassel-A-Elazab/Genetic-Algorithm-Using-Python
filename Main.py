@@ -17,10 +17,12 @@ class Graph:
         self.SIZ = SIZ
         Graph.arr = np.zeros((V,V),dtype=list);
         Graph.l_all=range(0,self.V)
+        
     #for add edge
     def addEdge(self,src,dest,w):
         Graph.arr[ord(src)-65][ord(dest)-65] = w
         Graph.arr[ord(dest) - 65][ord(src) - 65] = w
+        
     # for print matrix of graph represent
     def print_Graph(self):
         print Graph.arr
@@ -31,7 +33,6 @@ class Graph:
         for i in range(self.SIZ):
             x = random.sample(range(0, self.V), self.V)
             Graph.l_path.append(x)
-
         return Graph.l_path
 
     #check if two path or more equal in random
@@ -46,6 +47,7 @@ class Graph:
                     chk_random = 1
                     break
         return chk_random
+    
     #calculate cost for pathes choses
     def cal_cost(self):
         Graph.l_cost = []
@@ -65,6 +67,7 @@ class Graph:
             self.get_random()
 
         return Graph.l_path
+    
     def check_cost(self):
         chk_cost = 0
         for j in range(self.SIZ):
@@ -90,7 +93,7 @@ class Graph:
         print "initial population"
         for i in Graph.l_path:
             print map(chr, (item + 65 for item in i))
-
+            
         #print "path cost %s"%(Graph.l_cost)
 
     def print2Smallest(self,arr):
@@ -194,9 +197,6 @@ class Graph:
 
         print "cost"
         print Graph.l_cost
-
-
-
 
     def genetic_algorithm(self):
         self.get_last_path_cost()
