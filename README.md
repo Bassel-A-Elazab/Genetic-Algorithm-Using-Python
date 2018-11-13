@@ -9,9 +9,9 @@
   
   # Instructions
    * There are many steps to solve problem i explain it in details but there are 3 main steps such that :- <br/>
-    * Selection Operator. <br/>
-    * Crossover Operator. <br/>
-    * Mutation Operator. <br/>
+     * Selection Operator. <br/>
+     * Crossover Operator. <br/>
+     * Mutation Operator. <br/>
    * and steps in details :- <br/>
     1.<b> [Start] </b> Generate random <b>population</b> of n chromosomes (suitable solutions for the problem) <br/>
     2.<b> [Fitness] </b> Evaluate the <b>fitness</b> f(x) of each chromosome x in the <b>population</b>.<br/>
