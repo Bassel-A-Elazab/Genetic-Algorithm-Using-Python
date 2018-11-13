@@ -23,5 +23,10 @@
     8.<b> [Replace] </b> Use new generated <b>population</b> for a further run of algorithm.<br/>
     9.<b> [Test] </b> If the end condition is satisfied, stop, and return the best solution in current <b>population.</b><br/>
     10.<b> [Loop] </b> Go to <b>["step 2"]</b><br/> 
+    
+ # Requirements 
+ Install Python 2.7 <br/>
+ Install Numpy <br/>
+ 
   
   
