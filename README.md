@@ -11,8 +11,8 @@
    * There are many steps to solve problem :- <br/>
     1. <b> [Start] </b> Generate random <b>population</b> of n chromosomes (suitable solutions for the problem) <br/>
     2. <b> [Fitness] </b> Evaluate the <b>fitness</b> f(x) of each chromosome x in the <b>population</b>.<br/>
-    [New population] Create a new population by repeating following steps until the new population is complete
-        [Selection] Select two parent chromosomes from a population according to their fitness (the better fitness, the bigger chance to be selected)
+    3. <b>[New population] </b> Create a new <b>population </b>by repeating following steps until the <b>new population</b> is complete. <br>
+    4. <b>[Selection] </b> Select two parent chromosomes from a <b>population </b> according to their <b>fitness</b> (the better fitness, the bigger chance to be selected).<br/>
         [Crossover] With a crossover probability cross over the parents to form a new offspring (children). If no crossover was performed, offspring is an exact copy of parents.
         [Mutation] With a mutation probability mutate new offspring at each locus (position in chromosome).
         [Accepting] Place new offspring in a new population 
