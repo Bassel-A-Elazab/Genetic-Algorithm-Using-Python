@@ -28,5 +28,12 @@
  Install Python 2.7 <br/>
  Install Numpy <br/>
  
+ # References
+ https://arxiv.org/ftp/arxiv/papers/1308/1308.4675.pdf
+ http://www.obitko.com/tutorials/genetic-algorithms/ga-basic-description.php
+ https://www.doc.ic.ac.uk/~nd/surprise_96/journal/vol1/hmw/article1.html
+ 
+ # For Contact :-
+ bassel.alazab@gmail.com
   
   
