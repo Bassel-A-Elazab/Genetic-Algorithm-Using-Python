@@ -121,7 +121,7 @@ class Graph:
             Graph.index_select.append(arr.index(first))
             Graph.index_select.append(arr.index(second))
 
-
+    #Step1 : Selection Operator
     def selection(self):
         Graph.l_select = []
         self.print2Smallest(Graph.l_cost)
@@ -131,7 +131,7 @@ class Graph:
         for i in Graph.l_select:
             print map(chr, (item + 65 for item in i))
         print "we select pathes which index is %s"%(Graph.index_select)
-
+    # Step2 : Crossover Operator
     def crosover(self):
         final_child = []
         child = []
@@ -155,7 +155,7 @@ class Graph:
 
         #print "new child %s"%(Graph.child_final)
 
-
+    # Step 4 : Mutation Operator
     def mutation(self):
         self.crosover()
         x = random.sample(range(0,self.V),4)
