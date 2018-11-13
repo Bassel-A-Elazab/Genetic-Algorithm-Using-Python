@@ -8,10 +8,9 @@
   * Solutions which are <b>selected</b> to form new solutions (offspring) are selected according to their fitness the more suitable they are the more chances they have to reproduce. 
   
   # Instructions
-   * There are many steps to solve problem :-
-    1. <b> Start </b> Generate random <b>population</b> of n chromosomes (suitable solutions for the problem)
-    [Start] 
-    [Fitness] Evaluate the fitness f(x) of each chromosome x in the population
+   * There are many steps to solve problem :- <br/>
+    1. <b> [Start] </b> Generate random <b>population</b> of n chromosomes (suitable solutions for the problem) <br/>
+    2. <b> [Fitness] </b> Evaluate the <b>fitness</b> f(x) of each chromosome x in the <b>population</b>.<br/>
     [New population] Create a new population by repeating following steps until the new population is complete
         [Selection] Select two parent chromosomes from a population according to their fitness (the better fitness, the bigger chance to be selected)
         [Crossover] With a crossover probability cross over the parents to form a new offspring (children). If no crossover was performed, offspring is an exact copy of parents.
